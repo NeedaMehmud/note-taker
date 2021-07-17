@@ -1,18 +1,10 @@
-// const express = require("express");
-// const app = express();
-
-// app.listen(1234, () => {
-//   console.log("Server is listening on port: 1234");
-// });
-
-
 let noteTitle;
 let noteText;
 let saveNoteBtn;
 let newNoteBtn;
 let noteList;
 
-if (window.location.pathname === '/notes') {
+if (window.location.pathname === './notes.html') {
   noteTitle = document.querySelector('.note-title');
   noteText = document.querySelector('.note-textarea');
   saveNoteBtn = document.querySelector('.save-note');
