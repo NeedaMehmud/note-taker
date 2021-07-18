@@ -30,9 +30,15 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ## Screenshot
 
-The following images show the web application's appearance and functionality: 
+The following images show the web application's appearance: 
 
-![Existing notes are listed in the left-hand column with empty fields on the right-hand side for the new note’s title and text.](note-taker.gif)
+![Existing notes are listed in the left-hand column with empty fields on the right-hand side for the new note’s title and text.](note-taker.png)
+
+
+## Gif
+
+The following gif shows the web application's appearence and funtionality:
+![gif](note-taker.gif)
 
 
 
