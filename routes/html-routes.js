@@ -1,10 +1,10 @@
-import { join } from "path";
-export default function (server){
-server.get('/notes', function(_request, response) {
-    response.sendFile(join(__dirname, '../public/notes.html'));
-});
+const path = require('path');
+module.exports = (server) => {
+    server.get('/notes', function (_request, response) {
+        response.sendFile(path.join(__dirname, '../public/notes.html'));
+    });
 
-server.get('*', function(request, response) {
-    response.sendFile(join(__dirname, '../public/index.html'));
-});
+    server.get('*', function (request, response) {
+        response.sendFile(path.join(__dirname, '../public/index.html'));
+    });
 };
